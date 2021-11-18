@@ -1,0 +1,18 @@
+def interface(linhas):
+ print("*****" *8)
+interface("tracos")
+print(" " *12, "cadastramento".upper ())
+interface ("tracos")	
+print("Favor digite seus dados: ")
+interface("tracos")
+cadastramento = [ 
+
+(input (["cpf"])),
+(input (["nome"])),
+(input (["sexo"])),
+(input (["nome_da_mae"])), 
+(input (["data_nascimento"])),
+
+]
+for dados in cadastramento:
+	print(cadastramento)
