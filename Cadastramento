@@ -1,18 +1,38 @@
 def interface(linhas):
- print("*****" *8)
+ print("***" *8)
 interface("tracos")
 print(" " *12, "cadastramento".upper ())
 interface ("tracos")	
-print("Favor digite seus dados: ")
+print("Favor digite seus dados: ".upper())
 interface("tracos")
+
+var = True
+var2 = True
 cadastramento = [ 
 
-(input (["cpf"])),
-(input (["nome"])),
-(input (["sexo"])),
-(input (["nome_da_mae"])), 
-(input (["data_nascimento"])),
+["cpf"],
+["nome"],
+["sexo"],
+["nome_da_mae"], 
+["data_nascimento"],
 
 ]
+
+restante_cadastro = [
+
+["cep".upper( )],
+["telefone".upper( )],
+["Bairro"],
+["Cidade"],
+["Estado"],
+
+]
+
 for dados in cadastramento:
-	print(cadastramento)
+	input(dados)
+for continuar in restante_cadastro:
+    input(continuar)
+if var == var2:
+    print(" "*11,"Obrigado por participar!!")
+else:
+	print("error".upper ())
